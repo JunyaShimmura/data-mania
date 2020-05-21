@@ -165,7 +165,14 @@ footer p,footer a{
     list-style: none;
     color: #fff;
 }
-@media(max-width:600px){
+@media(max-width:600px)
+{    
+
+ .heading{
+        background-color: black;
+        font-size: 25px;
+        margin: 100px 0;
+   }
 
     .client .container{
         padding: 10px 0 ;
