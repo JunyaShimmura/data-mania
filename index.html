@@ -5,14 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>data-mania</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 </head>
 <body>
+    <div class="pfix">
+        <div id="target">
+            　　　<div class="target_inner">
+                     <i class="fas fa-bars" id="line1" ></i>
+                　</div>
+            </div>
+        <div class="nav" id="nav_f">
+            <ul >
+                <li >
+                    <a class="list" href="#">Home</a>
+                </li>
+                <li >
+                    <a class="list" href="#information">最新情報</a>
+                </li>
+                <li >
+                    <a class="list" href="#service">サービスの特徴</a>
+                </li>
+                <li >
+                    <a class="list" href="#three">3つの強み</a>
+                </li>
+                <li>
+                    <a class="list" href="#client">お客様の声</a>
+                </li>
+                <li>
+                    <a class="list" href="#form">お問い合わせ</a>
+                </li>
+            </ul>
+        </div>
+      
+    </div>
     <header>
         <a href=""><img src="images/logo-datamania.png" alt=""></a>
     <div class="heading">データマーケティングの
-       <br>未来をつくる</div>
+       <br>未来をつくる
+    </div>
     <div class="logo">今なら初月無料</div>
 </header>
+
     <nav>
                 <li><a href="#form" class="nav-form">お問い合わせ</a></li>
 
@@ -147,11 +181,12 @@
                 <span>お問い合わせ内容</span>
                 <textarea name="お問い合わせ" id="" cols="30" rows="10"></textarea>
             </label>
-            <button type="submit">送信</button>
+            <button type="submit" id="check5" >送信</button>
+
         </form>
     </div>
     <footer>
-        <div class="col">
+        <div class="col"  > 
             <p>企業情報</p>
             <br>
            <a href="">会社概要</a>
@@ -188,11 +223,10 @@
             <br>
            <a href="">利用規約</a>
            <a href="">プライバシーポリシー</a>
+           <a href="#" class="btnTop"><i class="far fa-arrow-alt-circle-up"></i></a>
         </div>
+
     </footer>
-
-    
-
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
